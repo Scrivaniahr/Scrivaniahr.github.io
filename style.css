@@ -445,3 +445,83 @@ body{
     }
   }
 
+  @media screen and (max-width:960px){
+    
+    .menu2 {
+        padding: 30px;
+    }
+
+    .menu2 label {
+        display: initial;
+    }
+
+    .menu2 .navbar {
+        position: relative;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #4d0686;
+        display: none;
+    }
+
+    .menu2 .navbar ul li {
+        width: 100%;
+    }
+
+    #menu2:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-txt h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .header-txt p {
+        padding: 0;
+    }
+
+    .testi-txt {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .testo-txt {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .testi-txt h3 span{
+        text-align: center;
+    }
+
+    .imagen-about-us{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .imagen-about-us2{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    
+  }
+
